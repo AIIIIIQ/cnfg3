@@ -1,0 +1,12 @@
+{
+    "SERVERCONFIG": {
+        "HOST": 127001,
+        "PORT": 8080,
+        "ENABLESSL": 0,
+        "SUPPORTEDMETHODS": [
+            1,
+            2,
+            3
+        ]
+    }
+}

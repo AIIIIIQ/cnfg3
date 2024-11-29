@@ -1,0 +1,79 @@
+C:\Users\a0908\PycharmProjects\cnfg3>run_tests.cmd
+==========================================
+Running test1.cfg...
+Parsing completed successfully.
+
+==========================================
+Running test2.cfg...
+Parsing completed successfully.
+
+==========================================
+Running test3.cfg...
+Error: Expected comma or right parenthesis
+
+==========================================
+Running test4.cfg...
+Error: Undefined constant UNDEFINEDCONST
+
+==========================================
+Running test5.cfg...
+Error: Unexpected character _
+
+==========================================
+Running test6.cfg...
+Error: Expected EQUAL
+
+==========================================
+Running test7.cfg...
+Error: Expected ASSIGN
+
+==========================================
+Running test8.cfg...
+Error: Expected SEMICOLON
+
+==========================================
+Running test9.cfg...
+Error: Expected comma or right parenthesis
+
+==========================================
+Running test10.cfg...
+Error: Expected comma or right parenthesis
+
+==========================================
+Running test11.cfg...
+Error: Expected a name or closing brace
+
+==========================================
+Running test12.cfg...
+Error: Expected a name
+
+==========================================
+Running test13.cfg...
+Error: Expected a value
+
+==========================================
+Running test14.cfg...
+Error: Expected a name after var
+
+==========================================
+Running test15.cfg...
+Error: Expected a name after |
+
+==========================================
+Running test16.cfg...
+Parsing completed successfully.
+
+==========================================
+Running test17.cfg...
+Error: Unexpected character @
+
+==========================================
+Running web_server.cfg...
+Parsing completed successfully.
+
+==========================================
+Running experiment.cfg...
+Parsing completed successfully.
+
+All tests have been executed.
+Для продолжения нажмите любую клавишу . . .
