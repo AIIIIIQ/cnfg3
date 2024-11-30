@@ -150,14 +150,14 @@ OK
 ```
 % Настройка сетевого оборудования
 
-var MAX_USERS := 100;
+var MAXUSERS := 100;
 
 DEVICE = {
     ID = 1
     MODE = 0
     LIMITS = {
-        MAX_USERS = |MAX_USERS|
-        MIN_USERS = 1
+        MAXUSERS = |MAXUSERS|
+        MINUSERS = 1
     }
     PORTS = (8080, 8081, 8082)
 }
@@ -177,8 +177,8 @@ python config_parser.py -i network_config.cfg -o network_config.json
         "ID": 1,
         "MODE": 0,
         "LIMITS": {
-            "MAX_USERS": 100,
-            "MIN_USERS": 1
+            "MAXUSERS": 100,
+            "MINUSERS": 1
         },
         "PORTS": [8080, 8081, 8082]
     }
@@ -194,12 +194,12 @@ python config_parser.py -i network_config.cfg -o network_config.json
 ```
 --[[ Параметры физического эксперимента ]]
 
-var INITIAL_VALUES := (0, 0, 9.8);
+var INITIALVALUES := (0, 0, 9.8);
 
 EXPERIMENT = {
     DURATION = 120
-    SAMPLE_RATE = 1000
-    INITIAL_VALUES = |INITIAL_VALUES|
+    SAMPLERATE = 1000
+    INITIALVALUES = |INITIALVALUES|
     SETTINGS = {
         MODE = 1
         SENSORS = {
@@ -222,8 +222,8 @@ python config_parser.py -i experiment_config.cfg -o experiment_config.json
 {
     "EXPERIMENT": {
         "DURATION": 120,
-        "SAMPLE_RATE": 1000,
-        "INITIAL_VALUES": [0, 0, 9.8],
+        "SAMPLERATE": 1000,
+        "INITIALVALUES": [0, 0, 9.8],
         "SETTINGS": {
             "MODE": 1,
             "SENSORS": {
